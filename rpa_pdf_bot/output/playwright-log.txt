@@ -1,0 +1,66 @@
+{"level":30,"time":"2025-07-09T15:49:54.844Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Listening on 127.0.0.1:59727"}
+(node:235628) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-09T15:49:54.960Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-09T15:49:55.078Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-07-09T15:49:55.080Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-09T15:49:55.079Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-09T15:49:55.089Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-07-09T15:49:55.090Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-07-09T15:49:55.090Z","pid":235628,"hostname":"marco-VirtualBox","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-09T15:49:55.090Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Trace file: "}
+{"level":30,"time":"2025-07-09T15:49:55.102Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changed active context"}
+{"level":30,"time":"2025-07-09T15:49:55.103Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method newContext"}
+{"level":30,"time":"2025-07-09T15:49:55.108Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.109Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.122Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-09T15:49:55.123Z","pid":235628,"hostname":"marco-VirtualBox","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-09T15:49:55.171Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-09T15:49:55.171Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changed active page"}
+{"level":30,"time":"2025-07-09T15:49:55.806Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-09T15:49:55.810Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-09T15:49:55.810Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2025-07-09T15:49:55.849Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-07-09T15:49:55.855Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getText"}
+{"level":30,"time":"2025-07-09T15:49:55.855Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2025-07-09T15:49:55.884Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Retrieved text for element body containing Example Domain\n\nThis domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.\n\nMore information..."}
+{"level":30,"time":"2025-07-09T15:49:55.884Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getText"}
+{"level":30,"time":"2025-07-09T15:49:55.899Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.901Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.903Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.904Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.906Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-07-09T15:49:55.907Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-07-09T15:49:55.910Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-07-09T15:49:55.910Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-07-09T15:49:55.912Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.913Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.915Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changed active context"}
+{"level":30,"time":"2025-07-09T15:49:55.915Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changing current active page: page=b7aca137-0ef9-4935-b682-3c56ab137618"}
+{"level":30,"time":"2025-07-09T15:49:55.915Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changed active page"}
+{"level":30,"time":"2025-07-09T15:49:55.917Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.919Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.921Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changing current active page: page=b7aca137-0ef9-4935-b682-3c56ab137618"}
+{"level":30,"time":"2025-07-09T15:49:55.921Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Changed active page"}
+{"level":30,"time":"2025-07-09T15:49:55.923Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method closePage"}
+{"level":30,"time":"2025-07-09T15:49:55.923Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Closing page with runBeforeUnload false"}
+{"level":30,"time":"2025-07-09T15:49:55.927Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method closePage"}
+{"level":30,"time":"2025-07-09T15:49:55.933Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-09T15:49:55.980Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method closeAllBrowsers"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-07-09T15:49:55.987Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:55.987Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-09T15:49:56.008Z","pid":235628,"hostname":"marco-VirtualBox","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-09T15:49:56.008Z","pid":235628,"hostname":"marco-VirtualBox","msg":"End of node method closeAllBrowsers"}

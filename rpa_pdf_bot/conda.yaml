@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - nodejs
+  - pip
+  - pip:
+      - rpaframework
+      - robotframework-browser
+      - rpaframework-core
+

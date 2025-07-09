@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.10.18 on linux)" generated="2025-07-09T17:49:53.426642" rpa="true" schemaversion="5">
+<suite id="s1" name="Rpa Pdf Bot" source="/home/marco/rpa_pdf_bot">
+<suite id="s1-s1" name="Tasks" source="/home/marco/rpa_pdf_bot/tasks">
+<suite id="s1-s1-s1" name="Main" source="/home/marco/rpa_pdf_bot/tasks/main.robot">
+<kw name="Apri Browser Headless" type="SETUP">
+<kw name="New Browser" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:54.154495" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/marco/rpa_pdf_bot/output/browser/traces/temp/76770f87-205f-4842-9956-b9e40f1d39bb"}</msg>
+<msg time="2025-07-09T17:49:54.176826" level="INFO">Starting Browser process /home/marco/.robocorp/holotree/19f5a7d_5a1fac3_9fcd2534/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:59727</msg>
+<msg time="2025-07-09T17:49:55.082443" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/marco/rpa_pdf_bot/output/browser/traces/temp/76770f87-205f-4842-9956-b9e40f1d39bb"}</msg>
+<arg>chromium</arg>
+<arg>headless=True</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-07-09T17:49:54.153584" elapsed="0.929141"/>
+</kw>
+<kw name="New Context" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:55.085829" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-07-09T17:49:55.105463" level="INFO">Successfully created context. </msg>
+<msg time="2025-07-09T17:49:55.105570" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.083221" elapsed="0.022452"/>
+</kw>
+<status status="PASS" start="2025-07-09T17:49:54.152383" elapsed="0.953443"/>
+</kw>
+<test id="s1-s1-s1-t1" name="Estrai contatti da pagina singola" line="15">
+<kw name="Create Directory" owner="RPA.FileSystem">
+<arg>${OUT_DIR}</arg>
+<doc>Creates a directory and (optionally) non-existing parent directories.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.112105" elapsed="0.000974"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Remove File" owner="RPA.FileSystem">
+<arg>${CSV_FILE}</arg>
+<doc>Removes the given file.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.113646" elapsed="0.002466"/>
+</kw>
+<arg>Remove File</arg>
+<arg>${CSV_FILE}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.113406" elapsed="0.003083"/>
+</kw>
+<kw name="Create File" owner="RPA.FileSystem">
+<arg>${CSV_FILE}</arg>
+<arg>url,title,email,phone\n</arg>
+<doc>Creates a new text file, and writes content if any is given.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.116771" elapsed="0.000584"/>
+</kw>
+<kw name="Estrai Contatti Da Pagina">
+<kw name="New Page" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:55.807819" level="INFO">Successfully initialized new page object and opened url: https://example.com</msg>
+<arg>${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.118891" elapsed="0.689220"/>
+</kw>
+<kw name="Wait For Elements State" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:55.851461" level="INFO">Waited for Element with selector body at state visible</msg>
+<arg>body</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.808398" elapsed="0.043395"/>
+</kw>
+<kw name="Get Text" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:55.885296" level="INFO">Text: 'Example Domain\n\nThis domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.\n\nMore information...'</msg>
+<msg time="2025-07-09T17:49:55.885665" level="INFO">${body} = Example Domain
+
+This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.
+
+More information...</msg>
+<var>${body}</var>
+<arg>body</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.852207" elapsed="0.033492"/>
+</kw>
+<kw name="Get Title" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:55.890738" level="INFO">Title: 'Example Domain'</msg>
+<msg time="2025-07-09T17:49:55.890898" level="INFO">${titolo} = Example Domain</msg>
+<var>${titolo}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.885971" elapsed="0.005007"/>
+</kw>
+<kw name="Get Regexp Matches" owner="String">
+<msg time="2025-07-09T17:49:55.891686" level="INFO">${emails} = []</msg>
+<var>${emails}</var>
+<arg>${body}</arg>
+<arg>[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}</arg>
+<doc>Returns a list of all non-overlapping matches in the given string.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.891183" elapsed="0.000543"/>
+</kw>
+<kw name="Get Regexp Matches" owner="String">
+<msg time="2025-07-09T17:49:55.892251" level="FAIL">error: nothing to repeat at position 1</msg>
+<var>${phones}</var>
+<arg>${body}</arg>
+<arg>(\+?\d[\d\s().-]{7,})</arg>
+<doc>Returns a list of all non-overlapping matches in the given string.</doc>
+<status status="FAIL" start="2025-07-09T17:49:55.891895" elapsed="0.000817">error: nothing to repeat at position 1</status>
+</kw>
+<kw name="Close Page" owner="RPA.Browser.Playwright">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the ``page`` in ``context`` in ``browser``.</doc>
+<status status="NOT RUN" start="2025-07-09T17:49:55.892907" elapsed="0.000077"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Append To File" owner="RPA.FileSystem">
+<arg>${CSV_FILE}</arg>
+<arg>"${url}","${titolo}","${e}",""\n</arg>
+<doc>Appends text to the given file.</doc>
+<status status="NOT RUN" start="2025-07-09T17:49:55.893319" elapsed="0.000068"/>
+</kw>
+<var name="${e}"/>
+<status status="NOT RUN" start="2025-07-09T17:49:55.893188" elapsed="0.000255"/>
+</iter>
+<var>${e}</var>
+<value>@{emails}</value>
+<status status="NOT RUN" start="2025-07-09T17:49:55.893066" elapsed="0.000425"/>
+</for>
+<for flavor="IN">
+<iter>
+<kw name="Append To File" owner="RPA.FileSystem">
+<arg>${CSV_FILE}</arg>
+<arg>"${url}","${titolo}","","${p}"\n</arg>
+<doc>Appends text to the given file.</doc>
+<status status="NOT RUN" start="2025-07-09T17:49:55.893777" elapsed="0.000063"/>
+</kw>
+<var name="${p}"/>
+<status status="NOT RUN" start="2025-07-09T17:49:55.893656" elapsed="0.000239"/>
+</iter>
+<var>${p}</var>
+<value>@{phones}</value>
+<status status="NOT RUN" start="2025-07-09T17:49:55.893559" elapsed="0.000380"/>
+</for>
+<arg>${URL_DA_VISITARE}</arg>
+<status status="FAIL" start="2025-07-09T17:49:55.118151" elapsed="0.775909">error: nothing to repeat at position 1</status>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>✅</arg>
+<arg>Contatti salvati in ${CSV_FILE}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-07-09T17:49:55.894190" elapsed="0.000112"/>
+</kw>
+<msg time="2025-07-09T17:49:55.905372" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2025-07-09T17:49:55.908318" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2025-07-09T17:49:55.908962" level="INFO">Switching browser to browser=0355d1db-30fa-48ce-b5cf-8171fad00130</msg>
+<msg time="2025-07-09T17:49:55.911427" level="INFO">Successfully changed active browser: browser=0355d1db-30fa-48ce-b5cf-8171fad00130</msg>
+<msg time="2025-07-09T17:49:55.911566" level="INFO">Switching context to context=2a279c4b-0c38-47b3-aedb-4c56ac02363a in CURRENT</msg>
+<msg time="2025-07-09T17:49:55.916992" level="INFO">Successfully changed active context: context=2a279c4b-0c38-47b3-aedb-4c56ac02363a</msg>
+<msg time="2025-07-09T17:49:55.917078" level="INFO">Switching to page page=b7aca137-0ef9-4935-b682-3c56ab137618,context CURRENT, browser CURRENT</msg>
+<msg time="2025-07-09T17:49:55.922759" level="INFO">Successfully changed active page: page=b7aca137-0ef9-4935-b682-3c56ab137618</msg>
+<msg time="2025-07-09T17:49:55.928721" level="INFO">Successfully closed Page with runBeforeUnload false</msg>
+<status status="FAIL" start="2025-07-09T17:49:55.105933" elapsed="0.788610">error: nothing to repeat at position 1</status>
+</test>
+<kw name="Chiudi Browser" type="TEARDOWN">
+<kw name="Close Browser" owner="RPA.Browser.Playwright">
+<msg time="2025-07-09T17:49:55.981236" level="INFO">Closed all browsers</msg>
+<arg>ALL</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-07-09T17:49:55.930630" elapsed="0.050801"/>
+</kw>
+<status status="PASS" start="2025-07-09T17:49:55.930091" elapsed="0.051487"/>
+</kw>
+<status status="FAIL" start="2025-07-09T17:49:53.488814" elapsed="2.492816"/>
+</suite>
+<status status="FAIL" start="2025-07-09T17:49:53.487255" elapsed="2.501619"/>
+</suite>
+<status status="FAIL" start="2025-07-09T17:49:53.427442" elapsed="2.562035"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Rpa Pdf Bot" id="s1" pass="0" fail="1" skip="0">Rpa Pdf Bot</stat>
+<stat name="Tasks" id="s1-s1" pass="0" fail="1" skip="0">Rpa Pdf Bot.Tasks</stat>
+<stat name="Main" id="s1-s1-s1" pass="0" fail="1" skip="0">Rpa Pdf Bot.Tasks.Main</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

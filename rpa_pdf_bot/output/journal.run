@@ -1,0 +1,281 @@
+{"when":1752053651,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752053651,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.041s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752053651,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.009s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/57079)"}
+{"when":1752053651,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.014s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752053652,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.294s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752053653,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.859s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752053653,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752053653,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752054095,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[60936:python3.10]"}
+{"when":1752054097,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[60936:python3.10 60954:node]"}
+{"when":1752054098,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 5 ... map[60936:python3.10 60954:node 60974:headless_shell 60976:headless_shell 60977:headless_shell]"}
+{"when":1752054098,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 5 to 8 ... map[60936:python3.10 60954:node 60974:headless_shell 60976:headless_shell 60977:headless_shell 60992:headless_shell 60998:headless_shell 61030:headless_shell]"}
+{"when":1752054105,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1752054105,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 8 to 0 ... map[]"}
+{"when":1752054105,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752054106,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752054656,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752054656,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.042s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752054656,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.007s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/64658)"}
+{"when":1752054656,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.006s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752054656,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.279s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752054657,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.871s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752054657,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752054657,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752055094,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[68416:python3.10]"}
+{"when":1752055098,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[68416:python3.10 68439:node]"}
+{"when":1752055099,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 8 ... map[68416:python3.10 68439:node 68521:headless_shell 68523:headless_shell 68524:headless_shell 68540:headless_shell 68546:headless_shell 68565:headless_shell]"}
+{"when":1752055099,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 2","comment":"rcc point of view"}
+{"when":1752055099,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752055100,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752055522,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752055522,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.205s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752055523,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.232s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/71933)"}
+{"when":1752055523,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.178s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752055523,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.559s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752055525,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 1.824s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752055526,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752055526,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752056007,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[76018:python3.10]"}
+{"when":1752056009,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[76018:python3.10 76032:node]"}
+{"when":1752056009,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 6 ... map[76018:python3.10 76032:node 76061:headless_shell 76063:headless_shell 76064:headless_shell 76081:headless_shell]"}
+{"when":1752056010,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 6 to 6 ... map[76018:python3.10 76032:node 76126:headless_shell 76128:headless_shell 76129:headless_shell 76144:headless_shell]"}
+{"when":1752056010,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 2","comment":"rcc point of view"}
+{"when":1752056010,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752056011,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752056213,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752056213,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.063s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752056213,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.007s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/78014)"}
+{"when":1752056213,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.015s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752056213,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.308s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752056214,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.919s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752056214,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752056214,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752056748,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[82463:python3.10]"}
+{"when":1752056751,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[82463:python3.10 82476:node]"}
+{"when":1752056751,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 3 ... map[82463:python3.10 82476:node 82510:headless_shell]"}
+{"when":1752056752,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 3 to 8 ... map[82463:python3.10 82476:node 82574:headless_shell 82576:headless_shell 82577:headless_shell 82594:headless_shell 82601:headless_shell 82621:headless_shell]"}
+{"when":1752056752,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 2","comment":"rcc point of view"}
+{"when":1752056752,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752056753,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752057041,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752057041,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.045s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752057041,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.006s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/85337)"}
+{"when":1752057041,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.008s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752057042,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.270s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752057042,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.913s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752057042,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752057042,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752057482,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[89052:python3.10]"}
+{"when":1752057484,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[89052:python3.10 89078:node]"}
+{"when":1752057484,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 3 ... map[89052:python3.10 89078:node 89098:headless_shell]"}
+{"when":1752057485,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 3 to 2 ... map[89052:python3.10 89078:node]"}
+{"when":1752057485,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 2","comment":"rcc point of view"}
+{"when":1752057485,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752057486,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752057660,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752057660,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.051s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752057660,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.011s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/90935)"}
+{"when":1752057660,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.008s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752057660,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.261s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752057661,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.874s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752057661,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752057661,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752058135,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[94934:python3.10]"}
+{"when":1752058137,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[94934:python3.10 94951:node]"}
+{"when":1752058137,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 3 ... map[94934:python3.10 94951:node 94971:headless_shell]"}
+{"when":1752058138,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 3 to 8 ... map[94934:python3.10 94951:node 95042:headless_shell 95044:headless_shell 95045:headless_shell 95060:headless_shell 95065:headless_shell 95087:headless_shell]"}
+{"when":1752058139,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 8 to 2 ... map[94934:python3.10 94951:node]"}
+{"when":1752058139,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 2","comment":"rcc point of view"}
+{"when":1752058140,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752058141,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752062234,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752062234,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.043s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752062234,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.006s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/121172)"}
+{"when":1752062234,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.006s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752062234,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.270s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752062235,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.891s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752062235,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752062235,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752062686,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[124995:python3.10]"}
+{"when":1752062688,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[124995:python3.10 125015:node]"}
+{"when":1752062688,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 3 ... map[124995:python3.10 125015:node 125035:headless_shell]"}
+{"when":1752062689,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 3 to 2 ... map[124995:python3.10 125015:node]"}
+{"when":1752062689,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 2","comment":"rcc point of view"}
+{"when":1752062689,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752062690,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752067273,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752067273,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.044s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752067273,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.009s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/154453)"}
+{"when":1752067273,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.016s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752067273,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.279s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752067274,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.874s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752067274,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752067274,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752067733,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[158374:python3.10]"}
+{"when":1752067736,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[158374:python3.10 158385:node]"}
+{"when":1752067737,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 3 ... map[158374:python3.10 158385:node 158409:headless_shell]"}
+{"when":1752067737,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752067737,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752067738,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752067739,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752067739,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.188s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752067739,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.057s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/158483)"}
+{"when":1752067739,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.010s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752067739,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.304s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752067740,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 1.108s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752067740,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752067740,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752068204,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[162393:python3.10]"}
+{"when":1752068207,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[162393:python3.10 162409:node]"}
+{"when":1752068207,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 7 ... map[162393:python3.10 162409:node 162429:headless_shell 162431:headless_shell 162432:headless_shell 162448:headless_shell 162453:exe]"}
+{"when":1752068207,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752068207,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752068209,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752068523,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752068523,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.044s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752068523,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.021s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/164529)"}
+{"when":1752068523,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.014s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752068524,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.267s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752068525,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 1.008s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752068525,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752068525,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752068961,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[168281:python3.10]"}
+{"when":1752068963,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[168281:python3.10 168297:node]"}
+{"when":1752068963,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 6 ... map[168281:python3.10 168297:node 168317:headless_shell 168319:headless_shell 168320:headless_shell 168335:headless_shell]"}
+{"when":1752068964,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752068964,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752068965,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752069192,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752069192,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.047s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752069192,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.006s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/170028)"}
+{"when":1752069192,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.006s Holotree blueprint is \"51df2687672d7325\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752069192,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.278s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752069193,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.818s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752069193,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752069193,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752069640,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[173882:python3.10]"}
+{"when":1752069643,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[173882:python3.10 173900:node]"}
+{"when":1752069643,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 8 ... map[173882:python3.10 173900:node 173930:headless_shell 173932:headless_shell 173933:headless_shell 173949:headless_shell 173954:headless_shell 173981:headless_shell]"}
+{"when":1752069644,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752069644,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752069645,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752070059,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.047s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.007s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/176628)"}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.006s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 03/15 v17.18.0 0.008s Fill hololib from RCC_REMOTE_ORIGIN skipped. RCC_REMOTE_ORIGIN was not defined."}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 04/15 v17.18.0 0.006s Cleanup holotree stage for fresh install."}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 05/15 v17.18.0 0.355s Build environment into holotree stage \"/home/marco/.robocorp/holotree/h19f5a7d_493f813dad24d3t\"."}
+{"when":1752070059,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 06/15 v17.18.0 0.050s Restore partial environment into holotree stage \"/home/marco/.robocorp/holotree/h19f5a7d_493f813dad24d3t\"."}
+{"when":1752070062,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 07/15 v17.18.0 2.510s Skipping micromamba phase, layer exists."}
+{"when":1752070062,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 08/15 v17.18.0 0.582s Running pip install phase. (pip v25.1.1) [layer: c7cb6d47fdad6215]"}
+{"when":1752070088,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 09/15 v17.18.0 25.552s Post install scripts phase skipped -- no scripts."}
+{"when":1752070088,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 10/15 v17.18.0 0.008s Activate environment started phase."}
+{"when":1752070089,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 11/15 v17.18.0 0.851s Pip check skipped."}
+{"when":1752070089,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 12/15 v17.18.0 0.008s Update installation plan."}
+{"when":1752070089,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 13/15 v17.18.0 0.014s Record holotree stage to hololib [with 6 workers on 7 CPUs]."}
+{"when":1752070091,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 2.283s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752070092,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.935s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752070092,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752070092,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752070558,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[180865:python3.10]"}
+{"when":1752070560,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[180865:python3.10 180876:node]"}
+{"when":1752070561,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 3 ... map[180865:python3.10 180876:node 180896:headless_shell]"}
+{"when":1752070561,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752070561,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752070563,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752070755,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752070755,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.051s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752070755,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.005s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/182179)"}
+{"when":1752070755,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.005s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752070755,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.252s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752070756,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.836s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752070756,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752070756,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752071337,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[186900:python3.10]"}
+{"when":1752071339,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[186900:python3.10 186919:node]"}
+{"when":1752071340,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 1 ... map[186900:python3.10]"}
+{"when":1752071341,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752071341,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752071342,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752071571,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752071571,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.053s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752071571,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.007s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/188560)"}
+{"when":1752071571,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.008s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752071572,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.286s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752071573,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.905s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752071573,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752071573,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752072023,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[192492:python3.10]"}
+{"when":1752072026,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[192492:python3.10 192504:node]"}
+{"when":1752072027,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752072027,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752072028,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752072377,"controller":"rcc.user","event":"start task","detail":"name=Scrape contacts for every query from=robot.yaml","comment":"at task environment setup"}
+{"when":1752072377,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.043s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752072377,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.008s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/194796)"}
+{"when":1752072377,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.018s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752072378,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.280s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752072379,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.959s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752072379,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752072379,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752072819,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[198546:python3.10]"}
+{"when":1752072820,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 252","comment":"rcc point of view"}
+{"when":1752072820,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752072821,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752073245,"controller":"rcc.user","event":"start task","detail":"name=Estrai contatti da pagina singola from=robot.yaml","comment":"at task environment setup"}
+{"when":1752073245,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.047s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752073245,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.007s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/201227)"}
+{"when":1752073245,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.006s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752073246,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.297s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752073246,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.872s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752073246,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752073246,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752073683,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[204928:python3.10]"}
+{"when":1752073684,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 252","comment":"rcc point of view"}
+{"when":1752073684,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752073685,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752074124,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752074124,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.044s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752074124,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.007s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/208446)"}
+{"when":1752074124,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.019s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752074125,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.333s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752074126,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.913s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752074126,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752074126,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752074729,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[216303:python3.10]"}
+{"when":1752074731,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[216303:python3.10 216327:node]"}
+{"when":1752074732,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 9 ... map[216303:python3.10 216327:node 216371:headless_shell 216373:headless_shell 216374:headless_shell 216389:headless_shell 216394:headless_shell 216415:headless_shell 216430:headless_shell]"}
+{"when":1752074738,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752074738,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752074739,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752074977,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752074977,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.048s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752074977,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.008s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/219928)"}
+{"when":1752074977,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.014s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752074978,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.285s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752074979,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.894s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752074979,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752074979,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752075434,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[226033:python3.10]"}
+{"when":1752075437,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[226033:python3.10 226070:node]"}
+{"when":1752075438,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 7 ... map[226033:python3.10 226070:node 226104:headless_shell 226106:headless_shell 226107:headless_shell 226123:headless_shell 226128:headless_shell]"}
+{"when":1752075438,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752075438,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752075439,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}
+{"when":1752075661,"controller":"rcc.user","event":"start task","detail":"name= from=robot.yaml","comment":"at task environment setup"}
+{"when":1752075661,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 00/15 v17.18.0 0.048s Context: \"Marco\" \u003cmarco@marco-VirtualBox\u003e [linux_amd64/Distributor ID: Ubuntu; Description: Ubuntu 24.04.2 LTS; Release: 24.04; Codename: noble]."}
+{"when":1752075661,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 01/15 v17.18.0 0.008s Fresh [private mode] holotree environment 51b034b3-bc3c-5a7e-e01d-29a4b58bd6f9. (parent/pid: 36239/228692)"}
+{"when":1752075661,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 02/15 v17.18.0 0.007s Holotree blueprint is \"c7cb6d47fdad6215\" [linux_amd64 with 6 workers on 7 CPUs from \"conda.yaml\"]."}
+{"when":1752075662,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 14/15 v17.18.0 0.296s Restore space from library [with 6 workers on 7 CPUs]."}
+{"when":1752075663,"controller":"rcc.user","event":"environment","detail":"build","comment":"Progress: 15/15 v17.18.0 0.929s Fresh holotree done [with 6 workers on 7 CPUs]."}
+{"when":1752075663,"controller":"rcc.user","event":"start","detail":"robot","comment":"started"}
+{"when":1752075663,"controller":"rcc.user","event":"run","detail":"robot","comment":"task run"}
+{"when":1752076192,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[235615:python3.10]"}
+{"when":1752076194,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 1 to 2 ... map[235615:python3.10 235628:node]"}
+{"when":1752076195,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 2 to 8 ... map[235615:python3.10 235628:node 235660:headless_shell 235662:headless_shell 235663:headless_shell 235678:headless_shell 235683:headless_shell 235711:headless_shell]"}
+{"when":1752076195,"controller":"rcc.user","event":"processes","detail":"updated","comment":"count from 8 to 5 ... map[235615:python3.10 235628:node 235660:headless_shell 235662:headless_shell 235663:headless_shell]"}
+{"when":1752076196,"controller":"rcc.user","event":"robot exit","detail":"From rcc \"v17.18.0\" point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1752076196,"controller":"rcc.user","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1752076197,"controller":"rcc.user","event":"stop","detail":"robot","comment":"done"}

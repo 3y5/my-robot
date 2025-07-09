@@ -1,0 +1,14 @@
+robot:
+  name: Contact Scraper Bot
+
+artifactsDir: output
+condaConfigFile: conda.yaml
+preRunScripts:
+  - rfbrowser init
+
+tasks:
+  run:
+    robotTaskName: Estrai contatti da pagina singola   
+
+
+
